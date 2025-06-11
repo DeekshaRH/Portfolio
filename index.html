@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Deeksha R H | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(to right, #e0eafc, #cfdef3);
+      color: #333;
+    }
+
+    nav {
+      background: #1e3c72;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: bold;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+    }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropbtn {
+      cursor: pointer;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: white;
+      color: black;
+      min-width: 180px;
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.1);
+      z-index: 1;
+      border-radius: 5px;
+      overflow: hidden;
+      font-weight: normal;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 10px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    header {
+      height: 100vh;
+      background: url('https://www.transparenttextures.com/patterns/purty-wood.png'), #1e3c72;
+      background-blend-mode: overlay;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+      color: white;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.3rem;
+      max-width: 600px;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 5rem auto 2rem;
+      padding: 2rem;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+      scroll-margin-top: 80px;
+    }
+
+    h2 {
+      margin-bottom: 1.5rem;
+      color: #1e3c72;
+      border-bottom: 2px solid #2980b9;
+      padding-bottom: 0.5rem;
+    }
+
+    .project {
+      margin-bottom: 2.5rem;
+    }
+
+    .project h3 {
+      color: #2980b9;
+      margin-bottom: 0.5rem;
+    }
+
+    .project p {
+      margin-bottom: 0.8rem;
+    }
+
+    .github-btn {
+      display: inline-block;
+      padding: 0.4rem 0.8rem;
+      background-color: #24292e;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 0.9rem;
+      transition: background 0.3s ease;
+    }
+
+    .github-btn:hover {
+      background-color: #0366d6;
+    }
+
+    .github-btn i {
+      margin-right: 5px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #1e3c72;
+      color: white;
+      margin-top: 4rem;
+    }
+
+    footer a {
+      color: #f9f9f9;
+      margin: 0 10px;
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div><strong>Deeksha R H</strong></div>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+
+      <div class="dropdown">
+        <a class="dropbtn">Projects ▾</a>
+        <div class="dropdown-content">
+          <a href="#mentor">Mentor-Mentee App</a>
+          <a href="#airline">Airline System</a>
+          <a href="#its">Tutoring System</a>
+        </div>
+      </div>
+
+      <a href="#certs">Certifications</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <header>
+    <h1>Hello, I'm Deeksha</h1>
+    <p>An aspiring software engineer passionate about building impactful applications and always ready to learn and adapt.</p>
+  </header>
+
+  <section id="about">
+  <h2>About Me</h2>
+  <p>
+    I aspire to secure an entry-level position in a dynamic company where I can leverage my relevant skills and education to contribute meaningfully to the organization’s success. I am eager to learn and grow in the role while making valuable contributions to advance both personal and company objectives.
+  </p>
+  <p>
+    I am a Computer Science and Engineering student from Karnataka, India. With strong academic achievements and hands-on project experience, I aim to contribute to a forward-thinking organization that values innovation and learning. I enjoy working on web development, intelligent systems, and automation tools. My strengths include adaptability, perseverance, and a fast learning ability.
+  </p>
+</section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>Alva’s Institute of Engineering and Technology</strong> – B.E CSE (CGPA: 8.86)</li>
+      <li><strong>St Mary’s PU College</strong> – PCMB (88.5%)</li>
+      <li><strong>Town Mahila Samaj School</strong> – High School (86.56%)</li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Programming Languages:</strong> Java, Python, C</li>
+      <li><strong>Databases:</strong> MySQL, SQLite, DBMS</li>
+      <li><strong>Tools & IDEs:</strong> VS Code, Eclipse, UiPath (RPA)</li>
+      <li><strong>Soft Skills:</strong> Punctual, Adaptive, Quick Learner, Perseverance</li>
+    </ul>
+  </section>
+
+  <section id="mentor">
+    <h2>Mentor-Mentee App</h2>
+    <div class="project">
+      <h3>Overview:</h3>
+      <p>A web application that streamlines communication and feedback between mentors and mentees. Built with Streamlit and SQLite, it includes secure login, student data storage, mentor feedback entry, and performance tracking.</p>
+      <h3>Key Features:</h3>
+      <ul>
+        <li>Login system using hashed passwords</li>
+        <li>Student registration and data management</li>
+        <li>Feedback system from mentor to mentee</li>
+        <li>Data visualization of performance</li>
+      </ul>
+      <p><strong>Tech Stack:</strong> Python, Streamlit, Pandas, SQLite, Hashlib</p>
+      <a href="https://github.com/DeekshaRH/Mentor-Mentee-app" target="_blank" class="github-btn">
+        <i class="fab fa-github"></i> View on GitHub
+      </a>
+    </div>
+  </section>
+
+  <section id="airline">
+    <h2>Airline Reservation System</h2>
+    <div class="project">
+      <h3>Overview:</h3>
+      <p>A Java Swing-based desktop application for managing flight bookings, customer information, journey records, and ticket cancellations. Connected to a MySQL backend for real-time operations.</p>
+      <h3>Key Features:</h3>
+      <ul>
+        <li>Flight booking and cancellation</li>
+        <li>Customer detail management</li>
+        <li>Flight schedule updates and ticket generation</li>
+      </ul>
+      <p><strong>Tech Stack:</strong> Java, Swing, JDBC, MySQL</p>
+      <a href="https://github.com/DeekshaRH/Airplane-Management-System" target="_blank" class="github-btn">
+        <i class="fab fa-github"></i> View on GitHub
+      </a>
+    </div>
+  </section>
+
+  <section id="its">
+    <h2>Intelligent Tutoring System</h2>
+    <div class="project">
+      <h3>Overview:</h3>
+      <p>This Django-based web platform evaluates student coding skills through quizzes and predicts their proficiency using machine learning. It then offers a tailored learning roadmap and progress tracking interface.</p>
+      <h3>Key Features:</h3>
+      <ul>
+        <li>Student registration and quiz assessments</li>
+        <li>Skill level classification using Random Forest</li>
+        <li>Dynamic content recommendation</li>
+        <li>Progress visualization and feedback</li>
+      </ul>
+      <p><strong>Tech Stack:</strong> Django, Scikit-learn, HTML/CSS, SQLite</p>
+      <a href="https://github.com/DeekshaRH/Intelligent-Tutoring-System-Using-Machine-Learning" target="_blank" class="github-btn">
+        <i class="fab fa-github"></i> View on GitHub
+      </a>
+    </div>
+  </section>
+
+  <section id="certs">
+    <h2>Certifications</h2>
+    <ul>
+      <li><strong>Java Programming Fundamentals</strong> – Infosys Springboard</li>
+      <li><strong>C Programming</strong> – Infosys Springboard</li>
+      <li><strong>RPA Developer Foundation</strong> – Wipro</li>
+      <li><strong>The Joy of Computing in Python</strong> – NPTEL (Elite)</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <ul>
+      <li><i class="fas fa-envelope"></i> <a href="mailto:deeksharh530@gmail.com">deeksharh530@gmail.com</a></li>
+      <li><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/deeksha-r-h" target="_blank">linkedin.com/in/deeksha-r-h</a></li>
+      <li><i class="fas fa-phone"></i> +91 63623 61375</li>
+      <li><i class="fas fa-map-marker-alt"></i> Chikmagalur, Karnataka, India</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Deeksha R H | All rights reserved</p>
+    <p>
+      <a href="mailto:deeksharh530@gmail.com"><i class="fas fa-envelope"></i></a>
+      <a href="https://linkedin.com/in/deeksha-r-h" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/DeekshaRH" target="_blank"><i class="fab fa-github"></i></a>
+    </p>
+  </footer>
+
+</body>
+</html>
